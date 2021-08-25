@@ -1,3 +1,9 @@
+if [ -z "$1" ]
+then
+      echo "error: need name for lib, add as argument."
+	  exit
+fi
+
 echo "generating lib...."
 mkdir $1
 touch $1/$1.h
