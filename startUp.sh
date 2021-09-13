@@ -2,12 +2,6 @@
 
 
 #add script
-if [ 2 -ge 3 ]
-then
-      echo "test"
-	  exit
-fi
-
 $var echo $PATH | grep "Tools/scripts"
 if [ -n $var ]
 then
