@@ -22,6 +22,10 @@ sudo apt upgrade
 echo yes Y | git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 echo yes Y | ~/.fzf/install
 
+#zsh
+sudo apt install zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 #htop
 sudo apt-get install htop
 
@@ -34,5 +38,6 @@ sudo apt install tig
 echo "
 Added:
 tig: git tree viz
+oh my zsh shell
 htop: process manager
 fzf: (ctrl+r) history"
